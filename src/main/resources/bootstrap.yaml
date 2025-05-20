@@ -1,12 +1,12 @@
 spring:
   application:
-    name: fee-ms
+    name: frecuencyClents
   cloud:
     config:
       enabled: true
       uri: http://localhost:8081
   datasource:
-    url: jdbc:postgresql://localhost:5432/bdfee
+    url: jdbc:postgresql://localhost:5432/bdfrecuencyClents
     username: postgres
     password: 1234
     driver-class-name: org.postgresql.Driver
