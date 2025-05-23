@@ -12,6 +12,7 @@ import java.util.List;
 @CrossOrigin("*")
 public class FrecuencyClentsController {
 
+    @Autowired
     FrecuencyClentsService frecuencyClentsService;
 
     @GetMapping("/{frecuency}")
